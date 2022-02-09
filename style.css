@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eff2f7;
+    font-family: 'Open Sans',sans-serif;
+}
+.container{
+    width: 780px;
+    height: 480px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    transition: 0.5s ease;
+}
+.form-container{
+    width: 50%;
+    height: 100%;
+    background: #ffffff;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-container h1{
+    font-weight: 700;
+}
+.form-container p{
+    font-size: 0.8em;
+    line-height: 1em;
+}
+.social{
+    margin: 20px 0;
+}
+.social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #dddddd;
+    margin: 0 5px;
+    border-radius: 50%;
+    font-size: 1em;
+    color: #333333;
+    text-decoration: none;
+}
+.form{
+    text-align: center;
+    margin: 10px 0;
+}
+.form .input-field{
+    outline: none;
+    border: none;
+    background: #eeeeee;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    transition: 1s ease-in-out;
+}
+.form button{
+    border-radius: 20px;
+    border: 1px solid #ff4b2b;
+    background: #ff4b2b;
+    padding: 12px 45px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.content-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+}
+.content{
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+.content h1{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.content p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+.container:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4), 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+.input-field:hover{
+    border-radius: 50px;
+}
